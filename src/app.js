@@ -54,8 +54,6 @@ app.put("/repositories/:id", (request, response) => {
     id
   }
 
-  console.log(repositories[repoIndex])
-
   return response.json(repositories[repoIndex])
 });
 
